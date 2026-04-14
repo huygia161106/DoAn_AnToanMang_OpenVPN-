@@ -10,7 +10,7 @@
 
 ### Bước 1: Setup Mạng (VirtualBox)
 1. Cấu hình card mạng `Internal Network` cho cả VM1 và VM2.
-2. Đặt IP tĩnh: VM1 (`192.168.1.1`), VM2 (`192.168.1.2`).
+2. Đặt IP tĩnh: VM1 (`192.168.1.1`), VM2 (`192.168.1.2`), VM3(`192.168.1.100`)(Internal Server).
    * Mở file cấu hình lên: sudo nano /etc/netplan/00-installer-config.yaml (tên file có thể khác một chút, hãy gõ ls /etc/netplan/ để xem tên đúng)
    * Xóa hết nội dung cũ, copy nội dung tương ứng bên dưới dán vào
    * Lưu lại (Ctrl+O, Enter, Ctrl+X) và gõ lệnh: sudo netplan apply để nhận IP mới
@@ -35,6 +35,20 @@
           dhcp4: no
           addresses:
             - 192.168.1.2/24
+     ```
+   * VM3:
+     ```
+     network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s8:
+          dhcp4: no
+          addresses:
+            - 192.168.1.100/24
+          routes:
+            - to: 10.9.0.0/24
+              via: 192.168.1.2
      ```
 4. Bật IP Forwarding trên cả 2 máy: `sudo sysctl -w net.ipv4.ip_forward=1`.
 

@@ -98,4 +98,4 @@ sudo iptables -I FORWARD 1 -i enp0s8 -o tun0 -j ACCEPT
     sudo systemctl status openvpn@server_ecdsa (xem trạng thái server)
     ```
 * Trên Windows, connect OpenVPN bằng profile ceo hoặc nv.
-* Trên VM2, gõ lệnh: watch -n 1 "sudo iptables -L FORWARD -n -v" để xem luật tường lửa tự động bật/tắt.
+* Trên VM2, gõ lệnh: ```watch -n 1 "sudo iptables -L FORWARD -n -v" ```để xem luật tường lửa tự động bật/tắt.

@@ -4,10 +4,13 @@ Cấu trúc thư mục (Repository Structure)
 
 ```
 vpn-forwarding-project/
-├── README.md                  # File hướng dẫn cài đặt & báo cáo
+├── .gitignore                 # BẢO VỆ KEY: Chặn Git tải file nhạy cảm lên
+├── README.md                  
 ├── vm1-openvpn/
-│   ├── remote_trigger.sh      # Script chạy khi Connect
-│   └── remote_untouch.sh      # Script chạy khi Disconnect
-└── vm2-forwarding/
-    └── manage_access.sh       # Script phân quyền iptables
+│   ├── remote_trigger.sh      
+│   └── remote_untouch.sh      
+├── vm2-forwarding/
+│   └── manage_access.sh       
+└── openvpn-config/
+    └── server_ecdsa.conf      # File cấu hình chuẩn của OpenVPN
 ```

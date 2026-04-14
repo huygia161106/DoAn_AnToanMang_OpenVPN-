@@ -74,7 +74,7 @@ sudo systemctl restart openvpn@server_ecdsa (restart nếu thay đổi cấu hì
 sudo systemctl status openvpn@server_ecdsa (xem trạng thái server)
 ```
 
-2. Copy 2 file `remote_trigger.sh` và `remote_untouch.sh` vào `/etc/openvpn/` và cấp quyền thực thi.
+2. Copy 2 file `remote_trigger.sh` và `remote_untouch.sh` vào `/etc/openvpn/server_ecdsa/` và cấp quyền thực thi.
 
 3. Mở luồng Forwarding (Không NAT):
  ```

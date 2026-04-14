@@ -11,7 +11,32 @@
 ### Bước 1: Setup Mạng (VirtualBox)
 1. Cấu hình card mạng `Internal Network` cho cả VM1 và VM2.
 2. Đặt IP tĩnh: VM1 (`192.168.1.1`), VM2 (`192.168.1.2`).
-3. Bật IP Forwarding trên cả 2 máy: `sudo sysctl -w net.ipv4.ip_forward=1`.
+   * Mở file cấu hình lên: sudo nano /etc/netplan/00-installer-config.yaml (tên file có thể khác một chút, hãy gõ ls /etc/netplan/ để xem tên đúng)
+   * Xóa hết nội dung cũ, copy nội dung tương ứng bên dưới dán vào
+   * Lưu lại (Ctrl+O, Enter, Ctrl+X) và gõ lệnh: sudo netplan apply để nhận IP mới
+   * VM1:
+     ```
+     network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s8:
+          dhcp4: no
+          addresses:
+            - 192.168.1.1/24
+     ```
+   * VM2:
+     ```
+     network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s8:
+          dhcp4: no
+          addresses:
+            - 192.168.1.2/24
+     ```
+4. Bật IP Forwarding trên cả 2 máy: `sudo sysctl -w net.ipv4.ip_forward=1`.
 
 ### Bước 2: Setup VM1 (OpenVPN Server)
 1. Cách cài server OpenVPN từ folder trên github:

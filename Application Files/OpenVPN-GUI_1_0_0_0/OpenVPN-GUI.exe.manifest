@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OpenVPN-GUI.exe" version="1.0.0.0" publicKeyToken="425f14e51cd1d804" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OpenVPN-GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OpenVPN-GUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2190720">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.7" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bYdrJXqXmV0hByrNRFgGM0aFFhIRRcwhgnftwY+XEDA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="721320">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8MB68OhNTdTaS9eCO6RTW8BIGzv2I+1Atlm2gUemu3U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenVPN-GUI.exe" size="54192">
+      <assemblyIdentity name="OpenVPN-GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HiHPsKRlCUqoYbKlcVhnchnAyKN9g8OHwhpT5TFZd3w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="OpenVPN-GUI.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HOHUY\Bao Huy" issuerKeyHash="264406ee1e00b63509cf66692dd31aeab53eeddd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MPVcQ4HHV7enC9qdWvvlY2GxKAZzGBhyWqtMtHlSaiw=</DigestValue></Reference></SignedInfo><SignatureValue>QJWY1dDtSVH77+MMMgCawoDT1b3UBcjBxZaB6UgyRHi8Xm2zFmPYefdvjKlAFgEZKeiqxEOCOtHr8PIaPzD3fQbM4YcURZeQl1XsMPgUp55HfRUlGBCTO7wspuzO8K5CE4PSTcnr3CkK1jxUeB0fojLb6ntGppmbLus+5743368=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rrDC6fmc3GEF8RLL+DTV74Dqi2eEhojmgyvqSJAQBK6NASMMAOKdgZZOoZDEq+6LvLn6eEsbyo3uHdd/NnBNX2wkpzEb71UDXQI6i57W6iHg+dTIUm+x/Iw177Ahml7CepZHstGA/J44ZV1GXW6c+4+JwjP/ELn3eEjZfAcYD1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2c6a5279b44cab5a721818730628b16163e5fb5a9dda0ba7b757c781435cf530" Description="" Url=""><as:assemblyIdentity name="OpenVPN-GUI.exe" version="1.0.0.0" publicKeyToken="425f14e51cd1d804" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOHUY\Bao Huy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BKzys1oYOpmkRI6NmTuDqJ0f9USZ7RATZsMefPfg+OQ=</DigestValue></Reference></SignedInfo><SignatureValue>Yjwj+JSHRZHuDLcqmUfNxg6H+AVz+gB+CwVYseioM2W+IIdJ6me0QmLcBSXxfXPINq2KAhj1gaUmdyvMoJGSZ2Q7R90HDssoWLKqVF9kAnvG+RAPSr3VGUC023nqZXuaU+XYgAh+FT6IvVPBytmJ1YEo7xZqSKQFo01Zk9dSkd8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rrDC6fmc3GEF8RLL+DTV74Dqi2eEhojmgyvqSJAQBK6NASMMAOKdgZZOoZDEq+6LvLn6eEsbyo3uHdd/NnBNX2wkpzEb71UDXQI6i57W6iHg+dTIUm+x/Iw177Ahml7CepZHstGA/J44ZV1GXW6c+4+JwjP/ELn3eEjZfAcYD1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQe1s0ticD6p1IPkjhtqqe7TANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASABPAEgAVQBZAFwAQgBhAG8AIABIAHUAeTAeFw0yNjA0MjIxMzExMzBaFw0yNzA0MjIxOTExMzBaMCUxIzAhBgNVBAMeGgBIAE8ASABVAFkAXABCAGEAbwAgAEgAdQB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCusMLp+ZzcYQXxEsv4NNXvgOqLZ4SGiOaDK+pIkBAEro0BIwwA4p2Blk6hkMSr7ou8ufp4SxvKje4d1382cE1fbCSnMRvvVQNdAjqLntbqIeD51MhSb7H8jDXvsCGaXsJ6lkey0YD8njhlXUZdbpz7j4nCM/8Qufd4SNl8BxgPUQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG9qtUIvC9fUFQeg4mb72ECVhraKkbfei3qGjiNTNS8GjSf2B5k89Wu25+XPjvDf+UVg3V7Oa7JLvIPL52fLHa4oFkiwlaMBj3QEd1ONUhRZusYT6ekuYgID8ncjDcPHrgC9Zqn9EWbytXjyYdhjRT1ho3UcUrZaAMdAJTwzbroW</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

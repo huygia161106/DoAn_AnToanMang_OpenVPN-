@@ -26,3 +26,7 @@ C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\bin\Debug\Guna.UI2.dll
 C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\bin\Debug\Newtonsoft.Json.dll
 C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\bin\Debug\Newtonsoft.Json.xml
 C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\obj\Debug\OpenVPN-.6E055720.Up2Date
+C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\bin\Debug\OpenVPN-GUI.exe.manifest
+C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\bin\Debug\OpenVPN-GUI.application
+C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.exe.manifest
+C:\HK4\ATM\DoAn_AnToanMang_OpenVPN-\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.application

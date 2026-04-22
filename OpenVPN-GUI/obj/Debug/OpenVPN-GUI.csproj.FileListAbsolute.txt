@@ -1,0 +1,14 @@
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.csproj.AssemblyReference.cache
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN_GUI.OpenVPN_Server.resources
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN_GUI.Properties.Resources.resources
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.csproj.GenerateResource.cache
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.csproj.CoreCompileInputs.cache
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\bin\Debug\OpenVPN-GUI.exe.config
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\bin\Debug\OpenVPN-GUI.exe
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\bin\Debug\OpenVPN-GUI.pdb
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\bin\Debug\Newtonsoft.Json.dll
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\bin\Debug\Newtonsoft.Json.xml
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-.6E055720.Up2Date
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.exe
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.pdb
+E:\DoAn_AnToanMang_OpenVPN--main\DoAn_AnToanMang_OpenVPN--main\OpenVPN-GUI\obj\Debug\OpenVPN-GUI.exe.config
